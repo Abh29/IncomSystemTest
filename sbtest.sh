@@ -1,11 +1,11 @@
 #! /bin/bash
 
 # Variables
-PG_HOST="localhost"
-PG_PORT="5430" ## this is the proxy port
-PG_USER="sysbench"
-PG_PASSWORD="password"
-PG_DB="sysbenchtest"
+PG_HOST=        # postgres host address
+PG_PORT=        # postgres port
+PG_USER=        # postgres username
+PG_PASSWORD=    # postgres password
+PG_DB=          # postgres database name
 TABLES=10
 TABLE_SIZE=100000
 THREADS=150
